@@ -296,8 +296,8 @@ if [[ "$bench_version" == "version-15" ]]; then
     nvm install 18
     node_version="18"
 else
-    nvm install 16
-    node_version="16"
+    nvm install 17
+    node_version="17"
 fi
 
 sudo apt-get -qq install npm -y
